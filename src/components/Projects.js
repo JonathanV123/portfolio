@@ -1,36 +1,35 @@
-import React, { Component } from 'react';
-import MemoryMatch from './projects/MemoryMatch';
-import Ajax from './projects/Ajax';
-import Calculator from './projects/Calculator';
-import ReactMovieApp from './projects/ReactMovieApp';
-import ReactToDoApp from './projects/ReactToDoApp';
-
-
+import React, {Component} from 'react';
 
 
 export default class Projects extends React.Component {
     render() {
         return (
             <div className="projectsContainer">
-                <div className ="leftSide">
-                    <MemoryMatch/>
+                <div className="leftSide">
+                    <div className="projectLeft">
+                        {this.props.projects[0].movieApp.text.props.children}
+                    </div>
+                </div>
+                <div className="rightSide">
+                    <div className="projectRight">
+                        {this.props.projects[0].memoryMatch.text.props.children}
+                    </div>
+                </div>
+                <div className="leftSide">
+                    <div className="projectLeft">
+                        {this.props.projects[0].ajax.text.props.children}
+                    </div>
 
                 </div>
-                <div className ="rightSide">
-                    <Calculator/>
-
+                <div className="rightSide">
+                    <div className="projectRight">
+                        {this.props.projects[0].calculator.text.props.children}
+                    </div>
                 </div>
-                <div className ="leftSide">
-                    <ReactToDoApp/>
-
-                </div>
-                <div className ="rightSide">
-                    <ReactMovieApp/>
-
-                </div>
-                <div className ="leftSide">
-                    <Ajax/>
-
+                <div className="leftSide">
+                    <div className="projectLeft">
+                        {this.props.projects[0].toDoApp.text.props.children}
+                    </div>
                 </div>
             </div>
         )
