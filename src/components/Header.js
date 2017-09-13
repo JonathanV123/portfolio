@@ -9,7 +9,6 @@ export default class Introduction extends React.Component {
     render() {
         return (
             <div className = "imageContainer">
-                <div className="brushStroke"></div>
                 <Name/>
             </div>
         )

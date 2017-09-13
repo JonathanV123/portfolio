@@ -1,14 +1,10 @@
 body{
-  background-image: url("./assets/images/whiteBrick.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("./assets/images/whiteBrick.png");
 }
 .portfolioContainer {
-  width: 100%;
   display:flex;
   justify-content:center;
   align-items:center;
-  text-align: center;
   flex-direction: column;
 }
 .welcomeContainer{
@@ -29,19 +25,13 @@ body{
   align-items:center;
   text-align: center;
   flex-direction: column;
-  background-size: 100%,cover;
-  background: url(./assets/images/introBackgroundImage.jpg) no-repeat;
-  height: calc(35vh + 35vw);
-}
-.brushStroke{
-  position: relative;
-  width: 100%;
-  height: 145px;
-  background-image: url(./assets/images/brush.png);
+  background: url(./assets/images/brush.png) no-repeat center bottom,
+  url(./assets/images/introBackgroundImage.jpg) no-repeat center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  top: 30%;
+  background-size: 100%, cover;;
+  height: calc(32vh + 32vw);
 }
+
 .projectLeft{
   position:relative;
   width:35%;
@@ -54,15 +44,15 @@ body{
   height:250px;
   border:2px solid blue;
 }
-.introductionContainer{
+.row{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  margin-top: 3%;
+  padding: 4%;
+  margin: 2%;
 }
+
 .projectsContainer{
-  width:100%;
+  padding: 4%;
+  margin: 3%;
 }
 .leftSide{
   width:100%;
@@ -76,7 +66,100 @@ body{
   justify-content: flex-start;
   align-items: center;
 }
+.aboutMe h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1:before{
+  background: url(./assets/images/section-title-brush-2.png) center no-repeat;
+  content:'';
+  position:absolute;
+  z-index: -1;
+  width: 40%;
+  height: 140px;
+  background-size: 100% 100%;
+}
+.aboutMe{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding:3%;
+  margin:1%;
+  font-size:2em;
+}
 .myPic{
   width:250px;
   height:350px;
+  /*transform: translate(10%, -65%);*/
+}
+.leftSideOfRow{
+  width:50%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rightSideOfRow{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.rightSideOfRow:before{
+  background: url(./assets/images/silairewood-splash.png) center no-repeat;
+  content:'';
+  position:absolute;
+  z-index: -1;
+  width:500px;
+  height:500px;
+  /*background-image:url(./assets/images/silairewood-splash.png);*/
+  background-size: 100%;
+}
+.card {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.card::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 400px;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  transition: opacity 0.3s ease-in-out;
+}
+/* Scale up the box */
+.card:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.card:hover::after {
+  opacity: 1;
+}
+ .divider{
+  background: url(./assets/images/introBackgroundImage.jpg) center no-repeat;
+  content:'';
+  z-index: -1;
+  width:100%;
+  height:400px;
+  /*background-image:url(./assets/images/silairewood-splash.png);*/
+  background-size: 100%;
 }
