@@ -1,5 +1,5 @@
 body{
-  background-image: url("./assets/images/whiteBrick.png");
+  background-image: url("./assets/images/polish-wood.png");
 }
 .portfolioContainer {
   display:flex;
@@ -25,24 +25,11 @@ body{
   align-items:center;
   text-align: center;
   flex-direction: column;
-  background: url(./assets/images/brush.png) no-repeat center bottom,
+  background: url(./assets/images/brushTest.png) no-repeat center bottom,
   url(./assets/images/introBackgroundImage.jpg) no-repeat center;
   background-repeat: no-repeat;
   background-size: 100%, cover;;
   height: calc(32vh + 32vw);
-}
-
-.projectLeft{
-  position:relative;
-  width:35%;
-  height:250px;
-  border:2px solid red;
-}
-.projectRight{
-  position: relative;
-  width:35%;
-  height:250px;
-  border:2px solid blue;
 }
 .row{
   display: flex;
@@ -51,20 +38,31 @@ body{
 }
 
 .projectsContainer{
+  display: flex;
+  width:60%;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5%;
   padding: 4%;
-  margin: 3%;
 }
 .leftSide{
   width:100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 2% 4% 2% 0;
 }
 .rightSide{
   width:100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin: 2% 0 2% 4%;
+
+
 }
 .aboutMe h1{
   text-align: center;
@@ -112,7 +110,7 @@ h1:before{
 
 
 .rightSideOfRow:before{
-  background: url(./assets/images/silairewood-splash.png) center no-repeat;
+  background: url(./assets/images/waterTest.png) center no-repeat;
   content:'';
   position:absolute;
   z-index: -1;
@@ -153,6 +151,19 @@ h1:before{
 /* Fade in the pseudo-element with the bigger shadow */
 .card:hover::after {
   opacity: 1;
+}
+.projectCard{
+  display: flex;
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
  .divider{
   background: url(./assets/images/introBackgroundImage.jpg) center no-repeat;

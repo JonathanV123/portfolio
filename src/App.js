@@ -9,20 +9,9 @@ import Divider from './components/Divider';
 class App extends Component {
     constructor() {
         super();
-        this.supplyMovieInformation = this.supplyMovieInformation.bind(this);
         this.state = {
-            projectInformation:[],
+            projectInformation: projects,
         };
-        this.supplyMovieInformation();
-    }
-    supplyMovieInformation() {
-
-        let projectInfo = this.state.projectInformation;
-        projects.forEach(function(item, index){
-            projectInfo[index] = item;
-        });
-        console.log(projectInfo);
-        this.state.projectInformation = projectInfo;
     }
     render() {
         return (
@@ -31,6 +20,7 @@ class App extends Component {
                 <Introduction/>
                 <Divider/>
                 <Projects projects={this.state.projectInformation}/>
+                <Divider/>
             </div>
         );
     }
