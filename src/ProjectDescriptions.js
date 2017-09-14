@@ -13,7 +13,7 @@ export const projects = [
             particular movie. I gained new found knowledge
             in higher-order functions, design paradigms, and ES6 by building this application.
         </p>,
-        img: ''
+        imgPath: null,
     }, {
         name:'memMatch',
         text: <p>
@@ -22,7 +22,8 @@ export const projects = [
             to get a better understanding of object oriented programming and Sass CSS preprocessing.
             Note: this website is best viewed in landscape mode when using mobile devices.
         </p>,
-        img: ''
+        imgPath: null
+
     }, {
         name:'ajax',
         text: <p>
@@ -31,7 +32,7 @@ export const projects = [
             The articles and location are based on user input. I built this application to
             learn more about Ajax requests and how to communicate and work with different APIs.
         </p>,
-        img: ''
+        imgPath: null,
     }, {
         name:'calc',
         text: <p>
@@ -40,7 +41,8 @@ export const projects = [
             The amount of complex, logical puzzles involved when creating this application were a joy to solve.
             This project also incorporates unit testing through the behavior-driven development framework Jasmine.
         </p>,
-        img: ''
+        imgPath: null
+
     }, {
         name:'toDoApp',
         text: <p>
@@ -50,7 +52,7 @@ export const projects = [
             state and virtual dom were an absolute joy to learn and use. React quickly became
             my favorite framework (or library!?) and I am excited to work on future applications utilizing it.
         </p>,
-        img: ''
+        imgPath: null,
     }
 ];
 // import React from 'react';

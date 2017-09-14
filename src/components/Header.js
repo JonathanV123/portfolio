@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Name from './Name';
 
 
-export default class Introduction extends React.Component {
+export default class Header extends React.Component {
     constructor() {
         super();
     }

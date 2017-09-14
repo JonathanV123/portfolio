@@ -26,7 +26,6 @@ export default class Introduction extends React.Component {
                 <div className="rightSideOfRow">
                     <div className="card">
                         <img className="myPic" src={myImage} alt="Profile Pic"/>
-
                     </div>
                 </div>
             </div>

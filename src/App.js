@@ -5,6 +5,10 @@ import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Projects from './components/Projects';
 import Divider from './components/Divider';
+import SkillsAndExperience from './components/SkillsAndExperience';
+import Contact from './components/Contact';
+
+
 
 class App extends Component {
     constructor() {
@@ -21,6 +25,9 @@ class App extends Component {
                 <Divider/>
                 <Projects projects={this.state.projectInformation}/>
                 <Divider/>
+                <SkillsAndExperience/>
+                <Divider/>
+                <Contact/>
             </div>
         );
     }
