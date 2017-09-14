@@ -1,231 +1,335 @@
-body{
-  background-image: url("./assets/images/polish-wood.png");
+body {
+    background-image: url("./assets/images/polish-wood.png");
 }
-.cardProjectBackground{
-  position: absolute;
-  width: 500px;
-  height: 550px;
-  z-index: -1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* transform: translate(0%,0%); */
+
+.cardProjectBackground {
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(0%,0%); */
 }
+
 .portfolioContainer {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-direction: column;
-}
-.welcomeContainer{
-  font-weight:bold;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align: center;
-  flex-direction: column;
-  z-index:3;
-  font-size:3em;
-  color:white;
-}
-.imageContainer{
-  width:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align: center;
-  flex-direction: column;
-  background: url(./assets/images/brushTest.png) no-repeat center bottom,
-  url(./assets/images/introBackgroundImage.jpg) no-repeat center;
-  background-repeat: no-repeat;
-  background-size: 100%, cover;;
-  height: calc(32vh + 32vw);
-}
-.row{
-  display: flex;
-  padding: 4%;
-  margin: 2%;
-}
-.skillsAndExperience{
-  width:100%;
-  height:100%;
-  display:flex;
-  justify-content:space-between;
-  flex-direction:column;
-  align-items: center;
-}
-.horizontalCardRow{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.horizontalCardRow > .card{
-  margin-right:5%;
-  margin-left:5%;
-}
-.projectsContainer{
-  display: flex;
-  width:70%;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -ms-flex-align: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 5%;
-  padding: 4%;
-}
-.projectBG{
-  position: relative;
-  width: 300px;
-  height: 350px;
-  z-index: -1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* transform: translate(0%,0%); */
-}
-.projectCardContainer{
-  width:50%
-}
-.card , .exp{
-  text-align: center;
-}
-.projectCard{
-  display: flex;
-  width: 300px;
-  /*height: 350px;*/
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  flex-direction: column;
-}
-.projectPicture{
-  /*background-image: url("./assets/images/silairewood-splash.png");*/
-  /*background-size:cover;*/
-  /*background-repeat:no-repeat;*/
-}
-.leftSide{
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: start;
-  justify-content: space-around;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 8% 4% 8% 0;
-}
-.rightSide{
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: start;
-  justify-content: space-around;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 8% 0 8% 4%;
-}
-.aboutMe h1{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h1:before{
-  background: url(./assets/images/section-title-brush-2.png) center no-repeat;
-  content:'';
-  position:absolute;
-  z-index: -1;
-  width: 40%;
-  height: 140px;
-  background-size: 100% 100%;
-}
-.aboutMe{
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  flex-direction:column;
-  padding:3%;
-  margin:1%;
-  font-size:2em;
-}
-.myPic{
-  width:250px;
-  height:350px;
-  /*transform: translate(10%, -65%);*/
-}
-.leftSideOfRow{
-  width:50%;
-  height:100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.rightSideOfRow{
-  width:50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-
-.rightSideOfRow:before{
-  background: url(./assets/images/waterTest.png) center no-repeat;
-  content:'';
-  position:absolute;
-  z-index: -1;
-  width:500px;
-  height:500px;
-  /*background-image:url(./assets/images/silairewood-splash.png);*/
-  background-size: 100%;
+.welcomeContainer {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    z-index: 3;
+    font-size: 3em;
+    color: white;
 }
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: url(./assets/images/brushTest.png) no-repeat center bottom,
+    url(./assets/images/introBackgroundImage.jpg) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: 100%, cover;;
+    height: calc(32vh + 32vw);
+}
+
+.row {
+    display: flex;
+    padding: 4%;
+    margin: 2%;
+}
+
+.skillsAndExperience {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontalCardRow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontalCardRow > .card {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.projectsContainer {
+    display: flex;
+    width: 90%;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linksContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+.projectLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 40%;
+    height: 70%;
+    background-color: #ff7f50;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    margin: 2%;
+    text-decoration: none;
+}
+
+.projectBG {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(0%,0%); */
+}
+
+.projectCardContainer {
+    width: 50%
+}
+
+.card, .exp {
+    text-align: center;
+}
+
+.projectCard {
+    display: flex;
+    width: 550px;
+    /*height: 350px;*/
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    flex-direction: column;
+    min-height: 375px;
+}
+
+.projectCard p {
+    padding: 3%;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projectPicture {
+    /*background-image: url("./assets/images/silairewood-splash.png");*/
+    /*background-size:cover;*/
+    /*background-repeat:no-repeat;*/
+}
+
+.memMatch {
+    width: 350px;
+    height: 325px;
+    background-image: url("./assets/images/memMatchMonitor.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.calc {
+    width: 350px;
+    height: 325px;
+    background-image: url("./assets/images/monitorCalc.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movieApp {
+    width: 350px;
+    height: 325px;
+    background-image: url("./assets/images/movieAppMonitor.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ajax {
+    width: 350px;
+    height: 325px;
+    background-image: url("./assets/images/ajaxMonitor.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toDoApp {
+    width: 350px;
+    height: 325px;
+    background-image: url("./assets/images/reactMonitor.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.leftSide {
+    width: 90%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 8% 4% 8% 0;
+}
+
+.rightSide {
+    width: 90%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 8% 0 8% 4%;
+}
+
+hr {
+    width: 30%;
+    border-bottom: 1px solid #ccc;
+}
+
+.aboutMe h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techUsed {
+    width: 100%;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    -webkit-justify-content: space-between;
+    justify-content: center;
+}
+
+.techUsed span {
+    padding: 1% 1.5% 1% 1.5%;
+    height: 35px;
+    margin: 5px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    color: white;
+    background-color: #6082b6;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+h1:before {
+    background: url(./assets/images/section-title-brush-2.png) center no-repeat;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 40%;
+    height: 140px;
+    background-size: 100% 100%;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+    margin: 1%;
+    font-size: 2em;
+}
+
+.myPic {
+    width: 250px;
+    height: 350px;
+    /*transform: translate(10%, -65%);*/
+}
+
+.leftSideOfRow {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSideOfRow {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSideOfRow:before {
+    background: url(./assets/images/waterTest.png) center no-repeat;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    /*background-image:url(./assets/images/silairewood-splash.png);*/
+    background-size: 100%;
+}
+
 .card {
-  display: flex;
-  width: 300px;
-  height: 400px;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.card::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 300px;
-  height: 400px;
-  opacity: 0;
-  border-radius: 5px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-  transition: opacity 0.3s ease-in-out;
-}
-/* Scale up the box */
-.card:hover {
-  transform: scale(1.2, 1.2);
+    display: flex;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-/* Fade in the pseudo-element with the bigger shadow */
-.card:hover::after {
-  opacity: 1;
-}
-
- .divider{
-  background: url(./assets/images/introBackgroundImage.jpg) center no-repeat;
-  content:'';
-  z-index: -1;
-  width:100%;
-  height:400px;
-  /*background-image:url(./assets/images/silairewood-splash.png);*/
-  background-size: 100%;
+.divider {
+    background: url(./assets/images/introBackgroundImage.jpg) center no-repeat;
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    /*background-image:url(./assets/images/silairewood-splash.png);*/
+    background-size: 100%;
 }

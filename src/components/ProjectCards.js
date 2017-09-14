@@ -5,13 +5,22 @@ export default class ProjectCards extends React.Component {
     constructor() {
         super();
 
+        this.renderSkills =this.renderSkills.bind(this);
     }
-
+    renderSkills(skills){
+        var skillsArr =[];
+        skills.forEach(function(item, i){
+            console.log(item);
+            skillsArr.push(<span>{item}</span>)
+        });
+        console.log(skillsArr);
+        return skillsArr
+    }
     render() {
         return (
             <div className="projectCard">
-                <h2>{this.props.projectInfo.name}</h2>
-                <p>{this.props.projectInfo.text}</p>
+                <h2>{this.props.projectInfo.title}</h2>
+                {this.props.projectInfo.text}
                 <div className="linksContainer">
                     <a href={this.props.projectInfo.sourceCodeLink} target="_blank" className="projectLink">
                         Live
@@ -19,6 +28,9 @@ export default class ProjectCards extends React.Component {
                     <a href={this.props.projectInfo.liveLink} target="_blank" className="projectLink">
                         Source Code
                     </a>
+                </div>
+                <div className="techUsed">
+                    {this.renderSkills(this.props.projectInfo.techUsed)}
                 </div>
                 <img src={waterTest} alt={"logo"} className='cardProjectBackground'/>
             </div>

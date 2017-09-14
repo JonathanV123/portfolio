@@ -2,6 +2,7 @@ import React from 'react';
 
 export const projects = [
     {
+        title:'React Movie App',
         name: 'movieApp',
         text: <p>
             Having enjoyed utilizing React on my To Do List application, I decided to build another
@@ -16,8 +17,10 @@ export const projects = [
         </p>,
         imgPath: null,
         sourceCodeLink: "./projects/movieApp",
+        techUsed: ['React','Javascript','CSS','ES6','Responsive Design','Webpack'],
         liveLink: "https://github.com/JonathanV123/movieApp",
     }, {
+        title:'Lord of The Rings Memory Match',
         name: 'memMatch',
         text: <p>
             A Lord of the Rings themed memory match game built using object oriented programming principles and
@@ -27,8 +30,10 @@ export const projects = [
         </p>,
         imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/memMatch",
+        techUsed: ['HTML','CSS','Javscript','jQuery','Sass','Responsive Design','Webpack'],
         liveLink: "./projects/memMatch",
     }, {
+        title:'City Information and News',
         name: 'ajax',
         text: <p>
             This application incorporates the New York Times, Wikipedia,
@@ -38,8 +43,10 @@ export const projects = [
         </p>,
         imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/ajax",
+        techUsed: ['HTML','CSS','Javscript','jQuery','Responsive Design',],
         liveLink: "./projects/Ajax",
     }, {
+        title:'Calculator',
         name: 'calc',
         text: <p>
             A basic functional calculator. Though it may seem like a simple process,
@@ -49,8 +56,10 @@ export const projects = [
         </p>,
         imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/calc",
+        techUsed: ['HTML','CSS','Javscript','Responsive Design','Unit Testing','Webpack'],
         liveLink: "./projects/calc",
     }, {
+        title:'React To Do App',
         name: 'toDoApp',
         text: <p>
             A simple To Do List app built with React. I built this application to practice using
@@ -61,6 +70,7 @@ export const projects = [
         </p>,
         imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/reactToDo",
+        techUsed: ['React','Javscript','CSS','Responsive Design','ES6','Webpack'],
         liveLink: "./projects/reactToDo/app",
     }
 ];
