@@ -38,17 +38,17 @@ export default class Projects extends React.Component {
                         <div className="projectPicture">
                             <img src={item.imgPath} alt={"Project Picture"} className='projectBG'/>
                         </div>
-                        <div className="projectCardContainer">
+                        {/*<div className="projectCardContainer">*/}
                             <ProjectCards key={item.imgPath} projectInfo={item}/>
-                        </div>
+                        {/*// </div>*/}
                     </div>
                 );
             }else{
                 individualProjectCards.push(
                     <div className="rightSide">
-                        <div className="projectCardContainer">
+                        {/*<div className="projectCardContainer">*/}
                             <ProjectCards key={item.name} projectInfo={item}/>
-                        </div>
+                        {/*</div>*/}
                         <div className="projectPicture">
                             <img src={item.imgPath} alt={"Project Picture"} className='projectBG'/>
                         </div>
