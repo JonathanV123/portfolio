@@ -8,7 +8,6 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div className="skillsAndExperience">
-                <div className="skillsTitle"> Get in touch</div>
                 <div className = "horizontalCardRow">
                 <div className="card">
                     <a className="linkButtonContact" href="mailto:jonathanvoxland@gmail.com" target="_blank">jonathanvoxland

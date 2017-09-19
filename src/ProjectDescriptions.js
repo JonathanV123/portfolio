@@ -66,7 +66,7 @@ export const projects = [
             ES6 and get a better understanding of React and Webpack. This application features two-way
             data-binding, persisting state with local storage and live state editing. The power of React's
             state and virtual dom were an absolute joy to learn and use. React quickly became
-            my favorite framework (or library!?) and I am excited to work on future applications utilizing it.
+            my favorite library, and I am excited to work on future applications utilizing it.
         </p>,
         imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/reactToDo",

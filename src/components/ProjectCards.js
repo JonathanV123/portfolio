@@ -32,7 +32,6 @@ export default class ProjectCards extends React.Component {
                 <div className="techUsed">
                     {this.renderSkills(this.props.projectInfo.techUsed)}
                 </div>
-                <img src={waterTest} alt={"logo"} className='cardProjectBackground'/>
             </div>
         )
     }

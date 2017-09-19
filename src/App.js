@@ -14,19 +14,25 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
+            dividerContent: [
+                {content: 'Projects'},
+                {content: 'Education'},
+                {content: 'Get in touch'},
+            ],
             projectInformation: projects,
         };
     }
+
     render() {
         return (
             <div className="portfolioContainer">
                 <Header/>
                 <Introduction/>
-                <Divider/>
+                <Divider dividerContent={this.state.dividerContent[0].content}/>
                 <Projects projects={this.state.projectInformation}/>
-                <Divider/>
+                <Divider dividerContent={this.state.dividerContent[1].content}/>
                 <SkillsAndExperience/>
-                <Divider/>
+                <Divider dividerContent={this.state.dividerContent[2].content}/>
                 <Contact/>
             </div>
         );
