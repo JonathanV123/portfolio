@@ -13,8 +13,6 @@ export default class Projects extends React.Component {
             if (i % 2) {
                 individualProjectCards.push(
                     <div className="leftSide">
-                        <div className={item.name}>
-                        </div>
                         <ProjectCards key={item.imgPath} projectInfo={item}/>
                     </div>
                 );
@@ -22,8 +20,6 @@ export default class Projects extends React.Component {
                 individualProjectCards.push(
                     <div className="rightSide">
                         <ProjectCards key={item.name} projectInfo={item}/>
-                        <div className={item.name}>
-                        </div>
                     </div>
                 );
             }

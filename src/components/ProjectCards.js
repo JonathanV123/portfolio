@@ -9,7 +9,7 @@ export default class ProjectCards extends React.Component {
     }
     renderSkills(skills){
         var skillsArr =[];
-        skills.forEach(function(item, i){
+        skills.forEach(function(item){
             console.log(item);
             skillsArr.push(<span>{item}</span>)
         });
@@ -20,6 +20,8 @@ export default class ProjectCards extends React.Component {
         return (
             <div className="projectCard">
                 <h2>{this.props.projectInfo.title}</h2>
+                <div className={this.props.projectInfo.name}>
+                </div>
                 {this.props.projectInfo.text}
                 <div className="linksContainer">
                     <a href={this.props.projectInfo.sourceCodeLink} target="_blank" className="projectLink">

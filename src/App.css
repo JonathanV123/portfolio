@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Playfair Display', serif;
     text-align: center;
     flex-direction: column;
     z-index: 3;
@@ -59,7 +60,7 @@ body {
     height: 625px;
     margin: 7% auto 2% auto;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -104,17 +105,16 @@ body {
 }
 
 .projectsContainer {
-    display: flex;
     width: 90%;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -ms-flex-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .linksContainer {
     width: 100%;
+    min-height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,12 +132,15 @@ body {
     width: 40%;
     height: 70%;
     font-size: 1.3em;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     margin: 2%;
     text-decoration: none;
     border: 2px solid tomato;
 }
-
+.projectLink:hover {
+    background-color: #ffc40c;
+    color: white;
+}
 .projectBG {
     position: relative;
     width: 300px;
@@ -158,16 +161,26 @@ body {
 }
 
 .projectCard {
+    width: 550px;
+    height: 720px;
     display: flex;
-    /*width: 780px;*/
-    /*height: 350px;*/
-    width:40%;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
     flex-direction: column;
-    min-height: 375px;
+     background-color: #fff;
+     -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.projectCard p {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3% 3% 3%;
+    font-size: 1.2em;
+    color: black;
+    margin-top: 0;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 #resume{
     height: 50%;
@@ -177,13 +190,6 @@ body {
     align-items: center;
     color: #2CB563;
 }
-.projectCard p {
-    padding: 3%;
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
 
 .pdfIcon {
     background-image: url("./assets/images/pdfIcon.png");
@@ -192,62 +198,71 @@ body {
 }
 
 .memMatch {
-    width: 850px;
-    height: 981px;
+    height: 228px;
+    width: 300px;
     background-image: url("./assets/images/memMatchSplash.png");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 5%;
 }
 
 .calc {
-    width: 850px;
-    height: 981px;
+    height: 228px;
+    width: 300px;
     background-image: url("./assets/images/calcSplash.png");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 5%;
 }
 
 .movieApp {
-    width: 850px;
-    height: 981px;
+    height: 228px;
+    width: 300px;
+    min-height: 200px;
     background-image: url("./assets/images/movieAppSplash.png");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 5%;
 }
 
 .ajax {
-    width: 850px;
-    height: 981px;
+    height: 228px;
+    width: 300px;;
     background-image: url("./assets/images/ajaxSplash.png");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 5%;
 }
 
 .toDoApp {
-    width: 850px;
-    height: 981px;
+    height: 228px;
+    width: 300px;
     background-image: url("./assets/images/toDoAppSplash.png");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 5%;
 }
 
+
 .leftSide {
-    height: 700px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2%;
 }
 
 .rightSide {
-    height: 700px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2%;
 }
 
 hr {
@@ -260,10 +275,12 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .techUsed {
-    width: 100%;
+    width: 110%;
+    min-height: 35px;
     display: inline-flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -271,7 +288,7 @@ hr {
     flex-direction: row;
     -webkit-align-items: center;
     align-items: center;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     -webkit-justify-content: space-between;
     justify-content: center;
 }
@@ -279,7 +296,6 @@ hr {
 .techUsed span {
     padding: 1% 1.5% 1% 1.5%;
     height: 35px;
-    margin: 5px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -288,6 +304,7 @@ hr {
     -webkit-align-items: center;
     align-items: center;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
     color: #2CB563;
     overflow: hidden;
     white-space: nowrap;
@@ -303,8 +320,12 @@ h1:before {
     background-size: 100% 100%;
 }
 h2{
-    background: url(./assets/images/section-title-brush-2.png) center no-repeat;
-    background-size: 100% 100%;
+    width: 80%;
+    color: #1d364a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .aboutMe {
@@ -352,6 +373,7 @@ h2{
 .divider {
     background: url(./assets/images/green-river.png) center no-repeat;
     letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
     width: 100%;
     color: white;
     height: 400px;
