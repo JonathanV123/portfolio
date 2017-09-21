@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Splash from '../assets/images/silairewood-splash.png'
 
 
 export default class Contact extends React.Component {
