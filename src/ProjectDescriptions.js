@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const projects = [
+export const allProjects = [
     {
         title:'React Movie App',
         name: 'movieApp',
@@ -15,7 +15,6 @@ export const projects = [
             particular movie. I gained new found knowledge
             in higher-order functions, design paradigms, and ES6 by building this application.
         </p>,
-        imgPath: null,
         sourceCodeLink: "./projects/movieApp",
         techUsed: ['React','Javascript','CSS','ES6','Responsive Design','Webpack'],
         liveLink: "https://github.com/JonathanV123/movieApp",
@@ -28,7 +27,6 @@ export const projects = [
             to get a better understanding of object oriented programming and Sass CSS preprocessing.
             Note: this website is best viewed in landscape mode when using mobile devices.
         </p>,
-        imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/memMatch",
         techUsed: ['HTML','CSS','Javscript','jQuery','Sass','Responsive Design','Webpack'],
         liveLink: "./projects/memMatch",
@@ -41,7 +39,6 @@ export const projects = [
             The articles and location are based on user input. I built this application to
             learn more about Ajax requests and how to communicate and work with different APIs.
         </p>,
-        imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/ajax",
         techUsed: ['HTML','CSS','Javscript','jQuery','Responsive Design',],
         liveLink: "./projects/Ajax",
@@ -54,7 +51,6 @@ export const projects = [
             The amount of complex, logical puzzles involved when creating this application were a joy to solve.
             This project also incorporates unit testing through the behavior-driven development framework Jasmine.
         </p>,
-        imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/calc",
         techUsed: ['HTML','CSS','Javscript','Responsive Design','Unit Testing','Webpack'],
         liveLink: "./projects/calc",
@@ -68,7 +64,6 @@ export const projects = [
             state and virtual dom were an absolute joy to learn and use. React quickly became
             my favorite library, and I am excited to work on future applications utilizing it.
         </p>,
-        imgPath: null,
         sourceCodeLink: "https://github.com/JonathanV123/reactToDo",
         techUsed: ['React','Javscript','CSS','Responsive Design','ES6','Webpack'],
         liveLink: "./projects/reactToDo/app",

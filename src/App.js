@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-import {projects} from './ProjectDescriptions';
+import {allProjects} from './ProjectDescriptions';
+import {Skills} from './Skills'
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Projects from './components/Projects';
@@ -16,10 +17,10 @@ class App extends Component {
         this.state = {
             dividerContent: [
                 {content: 'Projects'},
-                {content: 'Education'},
+                {content: 'Skills and Education'},
                 {content: 'Get in touch'},
             ],
-            projectInformation: projects,
+            projectInformation: allProjects,
         };
     }
 
@@ -31,9 +32,12 @@ class App extends Component {
                 <Divider dividerContent={this.state.dividerContent[0].content}/>
                 <Projects projects={this.state.projectInformation}/>
                 <Divider dividerContent={this.state.dividerContent[1].content}/>
-                <SkillsAndExperience/>
+                <SkillsAndExperience skillsContent = {Skills}/>
                 <Divider dividerContent={this.state.dividerContent[2].content}/>
                 <Contact/>
+                <div className="scrollDownNotification scrollDownAnimation">
+                    Scroll Down
+                </div>
             </div>
         );
     }

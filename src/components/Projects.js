@@ -13,7 +13,7 @@ export default class Projects extends React.Component {
             if (i % 2) {
                 individualProjectCards.push(
                     <div className="leftSide">
-                        <ProjectCards key={item.imgPath} projectInfo={item}/>
+                        <ProjectCards key={item.name} projectInfo={item}/>
                     </div>
                 );
             } else {

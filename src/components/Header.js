@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Name from './Name';
 
 
 export default class Header extends React.Component {
@@ -9,7 +8,14 @@ export default class Header extends React.Component {
     render() {
         return (
             <div className = "imageContainer">
-                <Name/>
+                <div className = "welcomeContainer">
+                    <h1 className="welcomeText">
+                        Jonathan Voxland's Portfolio
+                    </h1>
+                    <p className="welcomeText">
+                        Welcome
+                    </p>
+                </div>
             </div>
         )
     }

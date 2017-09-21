@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import waterTest from '../assets/images/waterTest.png'
 
 export default class ProjectCards extends React.Component {
     constructor() {
