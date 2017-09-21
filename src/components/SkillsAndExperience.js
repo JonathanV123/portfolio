@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Resume from '../assets/Jonathan_Voxland_Resume.pdf'
 import PDFIcon from '../assets/images/pdfIcon.png'
-import Splash from '../assets/images/patternPaint.png'
+import Splash from '../assets/images/patternPaintSplotch.png'
 
 
 export default class SkillsAndExperience extends React.Component {

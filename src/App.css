@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/images/whiteBrick.png");
+    background-image: url("assets/images/backdrop.png");
 }
 
 .bgSplash {
@@ -23,7 +23,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* transform: translate(0%,0%); */
 }
 
 .contactContainer {
@@ -39,8 +38,8 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 1.4em;
-    background: url(./assets/images/brush-strokes-dark.png) no-repeat center top,
-    url(./assets/images/pattern-dark-bg.png);
+    background: url(assets/images/bottomBrushStroke.png) no-repeat center top,
+    url(assets/images/darkBG.png);
 }
 
 .gitPic {
@@ -97,7 +96,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background: url(./assets/images/brush.png) no-repeat center bottom,
+    background: url(assets/images/brushStrokeTop.png) no-repeat center bottom,
     url(./assets/images/congruent_pentagon.png);
     height: calc(40vh + 30vw);
 }
@@ -205,7 +204,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* transform: translate(0%,0%); */
 }
 
 .projectCardContainer {
@@ -369,15 +367,6 @@ hr {
     white-space: nowrap;
 }
 
-/*h1:before {*/
-/*background: url(./assets/images/section-title-brush-2.png) center no-repeat;*/
-/*content: '';*/
-/*position: absolute;*/
-/*z-index: -1;*/
-/*width: 40%;*/
-/*height: 140px;*/
-/*background-size: 100% 100%;*/
-/*}*/
 h2 {
     width: 80%;
     color: #1d364a;
@@ -400,7 +389,6 @@ h2 {
 .myPic {
     width: 250px;
     height: 350px;
-    /*transform: translate(10%, -65%);*/
 }
 
 .leftSideOfRow {
