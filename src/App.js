@@ -10,15 +10,20 @@ import SkillsAndExperience from './components/SkillsAndExperience';
 import Contact from './components/Contact';
 
 
-
 class App extends Component {
     constructor() {
         super();
         this.state = {
             dividerContent: [
-                {content: 'Projects'},
-                {content: 'Skills and Education'},
-                {content: 'Get in touch'},
+                {
+                    text: 'Projects',
+                },
+                {
+                    text: 'Skills and Education',
+                },
+                {
+                    text: 'Get in touch',
+                },
             ],
             projectInformation: allProjects,
         };
@@ -29,14 +34,13 @@ class App extends Component {
             <div className="portfolioContainer">
                 <Header/>
                 <Introduction/>
-                <Divider dividerContent={this.state.dividerContent[0].content}/>
+                <Divider content={this.state.dividerContent[0]}/>
                 <Projects projects={this.state.projectInformation}/>
-                <Divider dividerContent={this.state.dividerContent[1].content}/>
-                <SkillsAndExperience skillsContent = {Skills}/>
-                <Divider dividerContent={this.state.dividerContent[2].content}/>
+                <Divider content={this.state.dividerContent[1]}/>
+                <SkillsAndExperience skillsContent={Skills}/>
+                <Divider content={this.state.dividerContent[2]}/>
                 <Contact/>
                 <div className="scrollDownNotification scrollDownAnimation">
-                    Scroll Down
                 </div>
             </div>
         );

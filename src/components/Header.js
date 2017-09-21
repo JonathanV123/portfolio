@@ -12,9 +12,6 @@ export default class Header extends React.Component {
                     <h1 className="welcomeText">
                         Jonathan Voxland's Portfolio
                     </h1>
-                    <p className="welcomeText">
-                        Welcome
-                    </p>
                 </div>
             </div>
         )
