@@ -312,7 +312,6 @@ hr {
 
 .techUsed {
     width: 80%;
-    min-height: 35px;
     display: inline-flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -659,7 +658,7 @@ h2 {
         height: 300px;
     }
     .welcomeText {
-        margin: 0 10px 0 10px;
+        margin: 0 15px 0 15px;
     }
 
     .imageContainer {
@@ -671,12 +670,13 @@ h2 {
     }
 
     .projectCard {
-        height: 475px;
+        height: auto;
+        width: 92%;
         justify-content: flex-start;
     }
 
     .projectDiv {
-        width: 500px;
+        width: 95%;
         flex-wrap: wrap-reverse;
     }
 
@@ -686,6 +686,7 @@ h2 {
     }
 
     .projectCard p {
+        height: auto;
         font-size: 1.1em;
     }
 
@@ -739,11 +740,6 @@ h2 {
         font-size: 0.6em;
     }
 
-    .projectCard {
-        height: 430px;
-        width: 350px;
-    }
-
     .imageContainer {
         height: calc(60vh + 55vw);
     }
@@ -790,7 +786,6 @@ h2 {
 
     .techUsed {
         font-size: 0.8em;
-        height: 100px;
     }
 
     .skillsAndExperience .card {
@@ -807,13 +802,8 @@ h2 {
         font-size: 0.7em;
     }
 
-    .projectCard {
-        height: 460px;
-    }
-
     .projectCard p {
         font-size: 1em;
-        height: 225px;
         margin-bottom: 0;
     }
 
@@ -831,7 +821,7 @@ h2 {
 @media screen and (max-device-width: 380px) {
     .projectDiv {
         width: 100%;
-
+        margin: 5px;
     }
 
     .bgSplash {
@@ -845,16 +835,10 @@ h2 {
     }
 
     .projectCard {
-        height: auto;
         width: 100%;
     }
 
-    .projectCard div {
-        height: auto;
-    }
-
     .projectCard p {
-        height: auto;
         padding-bottom: 10px;
     }
 
