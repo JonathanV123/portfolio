@@ -1,3 +1,4 @@
+
 body {
     background-image: url("assets/images/backdrop.png");
 }
@@ -27,12 +28,10 @@ body {
 
 .contactContainer {
     width: 100%;
-    height: 900px;
     text-align: center;
     font-family: sans-serif;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     letter-spacing: 2px;
@@ -146,10 +145,12 @@ body {
 
 .horizontalCardRow {
     width: 100%;
-    height: 100%;
+    margin-top: 230px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .horizontalCardRow > .card {
@@ -182,6 +183,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     color: tomato;
+    text-align: center;
     width: 40%;
     height: 70%;
     font-size: 1.3em;
@@ -255,66 +257,37 @@ body {
     background-repeat: no-repeat;
 }
 
-.memMatch {
+.projectCard > .projectSplash {
     height: 228px;
     width: 300px;
-    background-image: url("./assets/images/memMatchSplash.png");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 5%;
+}
+
+.memMatch {
+    background-image: url("./assets/images/memMatchSplash.png");
 }
 
 .calc {
-    height: 228px;
-    width: 300px;
     background-image: url("./assets/images/calcSplash.png");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 5%;
 }
 
 .movieApp {
-    height: 228px;
-    width: 300px;
-    min-height: 200px;
     background-image: url("./assets/images/movieAppSplash.png");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 5%;
+
 }
 
 .ajax {
-    height: 228px;
-    width: 300px;;
     background-image: url("./assets/images/ajaxSplash.png");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 5%;
 }
 
 .toDoApp {
-    height: 228px;
-    width: 300px;
     background-image: url("./assets/images/toDoAppSplash.png");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 5%;
 }
 
-.leftSide {
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-}
-
-.rightSide {
+.projectDiv {
     width: 500px;
     display: flex;
     justify-content: center;
@@ -397,6 +370,9 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 3%;
+    margin: 1%;
+    font-size: 2em;
 }
 
 .rightSideOfRow {
@@ -423,9 +399,10 @@ h2 {
     height: 400px;
 }
 
-.card, .contactCard {
+.horizontalCardRow .contactCard {
     width: 325px;
-    color: black;
+    background-image: url("assets/images/backdrop.png");
+    border-radius: 5%;
 }
 
 .contactCard a {
@@ -449,6 +426,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .scrollDownNotification {
@@ -498,6 +476,7 @@ h2 {
 
 .skillWrapper {
     display: flex;
+    width: 110px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -580,7 +559,17 @@ h2 {
     background-position: center;
 }
 
+@media screen and (max-device-width: 1465px) {
+    .horizontalCardRow {
+        height: auto;
+    }
+}
+
 @media screen and (max-device-width: 1250px) {
+    .rightSideOfRow .card {
+        margin: 10px;
+    }
+
     .rightSide {
         flex-direction: row;
         margin: 0;
@@ -591,38 +580,319 @@ h2 {
         margin: 0;
     }
 
-    .movieApp {
-        height: 600px;
-        position: relative;
-        right: 0;
-    }
-
-    .toDoApp {
-        height: 600px;
-        position: relative;
-        right: 0;
-    }
-
-    .ajax {
-        height: 600px;
-        position: relative;
-        right: 0;
-    }
-
-    .calc {
-        height: 600px;
-        position: relative;
-        left: 0;
-    }
-
-    .memMatch {
-        height: 600px;
-        position: relative;
-        left: 0;
+    .projectsContainer {
+        width: 95%;
     }
 
     .projectCard {
-        width: 60%;
+        width: 620px;
+        margin: 20px;
+    }
 
+    .projectCard > .projectSplash {
+        height: 235px;
+    }
+
+    .projectDiv {
+        width: 650px;
+    }
+}
+
+@media screen and (max-device-width: 1250px) {
+    .imageContainer {
+        height: calc(50vh + 45vw);
+    }
+}
+
+@media screen and (max-device-width: 855px) {
+    .horizontalCardRow .contactCard {
+        width: 295px;
+        height: 190px;
+    }
+
+    .contactContainer {
+        align-items: flex-end;
+    }
+
+    .horizontalCardRow {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-device-width: 800px) {
+    .welcomeText {
+        font-size: 1.3em;
+    }
+
+    .leftSideOfRow p {
+        font-size: 0.8em;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .leftSideOfRow {
+        width: 100%;
+    }
+
+    .rightSideOfRow {
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 660px) {
+    .projectCard {
+        width: 520px;
+    }
+
+    .projectDiv {
+        width: 560px;
+    }
+
+    .horizontalCardRow .contactCard {
+        width: 220px;
+        height: 155px;
+        margin: 9px;
+    }
+
+    .contactCard a {
+        font-size: 0.52em;
+    }
+}
+
+@media screen and (max-device-width: 615px) {
+    .welcomeText {
+        margin: 0 10px 0 10px;
+    }
+
+    .imageContainer {
+        height: calc(60vh + 55vw);
+    }
+
+    .leftSideOfRow p {
+        font-size: 0.7em;
+    }
+
+    .projectCard {
+        height: 475px;
+        justify-content: flex-start;
+    }
+
+    .projectDiv {
+        width: 500px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .projectCard h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .projectCard p {
+        font-size: 1.1em;
+    }
+
+    .projectCard > .projectSplash {
+        display: none;
+    }
+
+    .projectsContainer > .movieApplication:after {
+        content: '';
+        background-image: url("./assets/images/movieAppSplash.png");
+        width: 400px;
+        height: 320px;
+        background-size: 100% 100%;
+    }
+
+    .projectsContainer > .projectDiv:after {
+        content: '';
+        width: 400px;
+        height: 320px;
+        background-size: 100% 100%;
+    }
+
+    .projectsContainer > .memoryMatchApplication:after {
+        background-image: url("./assets/images/memMatchSplash.png");
+    }
+
+    .projectsContainer > .ajaxApplication:after {
+        background-image: url("./assets/images/ajaxSplash.png");
+    }
+
+    .projectsContainer > .calculatorApplication:after {
+        background-image: url("./assets/images/calcSplash.png");
+    }
+
+    .projectsContainer > .toDoApplication:after {
+        background-image: url("./assets/images/toDoAppSplash.png");
+    }
+}
+
+@media screen and (max-device-width: 510px) {
+    .welcomeText {
+        font-size: 1.1em;
+
+    }
+
+    .leftSideOfRow p {
+        font-size: 0.6em;
+    }
+
+    .projectCard {
+        height: 430px;
+        width: 350px;
+    }
+
+    .imageContainer {
+        height: calc(60vh + 55vw);
+    }
+
+    .projectCard p {
+        font-size: 0.95em;
+    }
+
+    .techUsed {
+        width: 100%;
+    }
+
+    .skillsAndExperience h2 {
+        font-size: 1.1em;
+    }
+
+    .skillsAndExperience .card p {
+        font-size: 0.9em;
+    }
+
+    .bgSplash {
+        width: 370px;
+        height: 336px;
+    }
+
+    .skillsAndExperience .card {
+        width: 233px;
+        height: 200px
+    }
+}
+
+@media screen and (max-device-width: 440px) {
+    .skillWrapper {
+        margin: 5px;
+    }
+
+    .projectDiv {
+        width: 380px;
+    }
+
+    .skillName {
+        font-size: 0.8em;
+    }
+
+    .techUsed {
+        font-size: 0.8em;
+        height: 100px;
+    }
+
+    .skillsAndExperience .card {
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+    }
+
+    .skillsAndExperience h2 {
+        font-size: 1.1em;
+    }
+
+    .skillsAndExperience .card p {
+        font-size: 0.7em;
+    }
+
+    .projectCard {
+        height: 460px;
+    }
+
+    .projectCard p {
+        font-size: 1em;
+        height: 225px;
+        margin-bottom: 0;
+    }
+
+    .horizontalCardRow {
+        margin-top: 180px;
+    }
+
+    .projectsContainer > .projectDiv:after {
+        width: 300px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-device-width: 380px) {
+    .projectDiv {
+        width: 100%;
+
+    }
+
+    .bgSplash {
+        width: 280px;
+        height: 300px;
+    }
+
+    .projectsContainer > .projectDiv:after {
+        width: 280px;
+        height: 240px;
+    }
+
+    .projectCard {
+        height: auto;
+        width: 100%;
+    }
+
+    .projectCard div {
+        height: auto;
+    }
+
+    .projectCard p {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .projectCard .linksContainer {
+        height: 65px;
+    }
+
+    .imageContainer {
+        height: calc(50vh + 55vw);
+    }
+
+    .myPic {
+        width: 225px;
+        height: 315px;
+    }
+
+    .rightSideOfRow .card {
+        height: 325px;
+    }
+
+    .divider {
+        font-size: 1.5em;
+    }
+
+    .skillWrapper {
+        width: 80px;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .skillWrapper {
+        width: 55px;
+    }
+}
+
+@media screen and (max-device-width: 291px) {
+    .skillWrapper {
+        width: 52px;
     }
 }

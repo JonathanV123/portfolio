@@ -11,7 +11,6 @@ export default class Introduction extends React.Component {
         return (
             <div className="row">
                 <div className="leftSideOfRow">
-                    <div className="aboutMe">
                         <h2>
                             About Me
                         </h2>
@@ -27,7 +26,6 @@ export default class Introduction extends React.Component {
                             passionate about
                             what they do and together we make things that help others be successful.
                         </p>
-                    </div>
                 </div>
                 <div className="rightSideOfRow">
                     <div className="card">

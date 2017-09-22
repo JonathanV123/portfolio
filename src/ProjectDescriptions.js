@@ -3,7 +3,8 @@ import React from 'react';
 export const allProjects = [
     {
         title:'React Movie App',
-        name: 'movieApp',
+        name: 'projectSplash movieApp',
+        classNameAlt: 'movieApplication',
         text: <p>
             Having enjoyed utilizing React on my To Do List application, I decided to build another
             React application
@@ -20,7 +21,8 @@ export const allProjects = [
         liveLink: "https://github.com/JonathanV123/movieApp",
     }, {
         title:'Lord of The Rings Memory Match',
-        name: 'memMatch',
+        name: 'projectSplash memMatch',
+        classNameAlt: 'memoryMatchApplication',
         text: <p>
             A Lord of the Rings themed memory match game built using object oriented programming principles and
             includes dynamically created DOM elements and interactivity. I decided to build this application
@@ -32,7 +34,8 @@ export const allProjects = [
         liveLink: "./projects/memMatch",
     }, {
         title:'City Information and News',
-        name: 'ajax',
+        name: 'projectSplash ajax',
+        classNameAlt: 'ajaxApplication',
         text: <p>
             This application incorporates the New York Times, Wikipedia,
             and Google Maps Geolocation API to generate location and articles asynchronously.
@@ -44,7 +47,8 @@ export const allProjects = [
         liveLink: "./projects/Ajax",
     }, {
         title:'Calculator',
-        name: 'calc',
+        name: 'projectSplash calc',
+        classNameAlt: 'calculatorApplication',
         text: <p>
             A basic functional calculator. Though it may seem like a simple process,
             this was one of the most rewarding and challenging apps I have created.
@@ -56,7 +60,8 @@ export const allProjects = [
         liveLink: "./projects/calc",
     }, {
         title:'React To Do App',
-        name: 'toDoApp',
+        name: 'projectSplash toDoApp',
+        classNameAlt: 'toDoApplication',
         text: <p>
             A simple To Do List app built with React. I built this application to practice using
             ES6 and get a better understanding of React and Webpack. This application features two-way
