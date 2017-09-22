@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 
 export default class Header extends React.Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
-            <div className = "imageContainer">
-                <div className = "welcomeContainer">
+            <div className="imageContainer">
+                <div className="welcomeContainer">
                     <h1 className="welcomeText">
                         Jonathan Voxland's Portfolio
                     </h1>

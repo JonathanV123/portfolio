@@ -3,18 +3,19 @@ import React, {Component} from 'react';
 export default class ProjectCards extends React.Component {
     constructor() {
         super();
-
-        this.renderSkills =this.renderSkills.bind(this);
+        this.renderSkills = this.renderSkills.bind(this);
     }
-    renderSkills(skills){
-        var skillsArr =[];
-        skills.forEach(function(item){
+
+    renderSkills(skills) {
+        var skillsArr = [];
+        skills.forEach(function (item) {
             console.log(item);
             skillsArr.push(<span>{item}</span>)
         });
         console.log(skillsArr);
         return skillsArr
     }
+
     render() {
         return (
             <div className="projectCard">

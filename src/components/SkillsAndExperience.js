@@ -11,7 +11,7 @@ export default class SkillsAndExperience extends React.Component {
     }
 
     renderSkills(skills) {
-        var skillArr = [];
+        let skillArr = [];
         skills.map(function (skill) {
             skillArr.push(<div className="skillWrapper">
                 <div className={skill.className}>
@@ -37,7 +37,7 @@ export default class SkillsAndExperience extends React.Component {
                     <p>
                         Accelerated Web Development Program
                     </p>
-                    <img src={Splash} className= "bgSplash" alt="Background Splash Image"/>
+                    <img src={Splash} className="bgSplash" alt="Paint Blotch"/>
                 </div>
                 <div className="card">
                     <h2>
@@ -45,7 +45,7 @@ export default class SkillsAndExperience extends React.Component {
                     </h2>
                     <p> A.S Business Administration
                     </p>
-                    <img src={Splash} className= "bgSplash" alt="Background Splash Image"/>
+                    <img src={Splash} className="bgSplash" alt="Paint Blotch"/>
                 </div>
                 <div className="card">
                     <h2>
@@ -54,11 +54,11 @@ export default class SkillsAndExperience extends React.Component {
                     <p>
                         Professional French Culinary Chef Program
                     </p>
-                    <img src={Splash} className= "bgSplash" alt="Background Splash Image"/>
+                    <img src={Splash} className="bgSplash" alt="Paint Blotch"/>
                 </div>
                 <div id="resume"><p>Download my full resume here:</p>
                     <a href={Resume} target="_blank">
-                        <img className="pdfIcon" src={PDFIcon} width="100" height="100"/>
+                        <img className="pdfIcon" src={PDFIcon} alt='PDF file' width="100" height="100"/>
                     </a>
                 </div>
             </div>

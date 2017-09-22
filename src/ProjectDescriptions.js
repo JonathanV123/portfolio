@@ -2,7 +2,7 @@ import React from 'react';
 
 export const allProjects = [
     {
-        title:'React Movie App',
+        title: 'React Movie App',
         name: 'projectSplash movieApp',
         classNameAlt: 'movieApplication',
         text: <p>
@@ -17,10 +17,10 @@ export const allProjects = [
             in higher-order functions, design paradigms, and ES6 by building this application.
         </p>,
         sourceCodeLink: "./projects/movieApp",
-        techUsed: ['React','Javascript','CSS','ES6','Responsive Design','Webpack'],
+        techUsed: ['React', 'Javascript', 'CSS', 'ES6', 'Responsive Design', 'Webpack'],
         liveLink: "https://github.com/JonathanV123/movieApp",
     }, {
-        title:'Lord of The Rings Memory Match',
+        title: 'Lord of The Rings Memory Match',
         name: 'projectSplash memMatch',
         classNameAlt: 'memoryMatchApplication',
         text: <p>
@@ -30,10 +30,10 @@ export const allProjects = [
             Note: this website is best viewed in landscape mode when using mobile devices.
         </p>,
         sourceCodeLink: "https://github.com/JonathanV123/memMatch",
-        techUsed: ['HTML','CSS','Javscript','jQuery','Sass','Responsive Design','Webpack'],
+        techUsed: ['HTML', 'CSS', 'Javscript', 'jQuery', 'Sass', 'Responsive Design', 'Webpack'],
         liveLink: "./projects/memMatch",
     }, {
-        title:'City Information and News',
+        title: 'City Information and News',
         name: 'projectSplash ajax',
         classNameAlt: 'ajaxApplication',
         text: <p>
@@ -43,10 +43,10 @@ export const allProjects = [
             learn more about Ajax requests and how to communicate and work with different APIs.
         </p>,
         sourceCodeLink: "https://github.com/JonathanV123/ajax",
-        techUsed: ['HTML','CSS','Javscript','jQuery','Responsive Design',],
+        techUsed: ['HTML', 'CSS', 'Javscript', 'jQuery', 'Responsive Design',],
         liveLink: "./projects/Ajax",
     }, {
-        title:'Calculator',
+        title: 'Calculator',
         name: 'projectSplash calc',
         classNameAlt: 'calculatorApplication',
         text: <p>
@@ -56,10 +56,10 @@ export const allProjects = [
             This project also incorporates unit testing through the behavior-driven development framework Jasmine.
         </p>,
         sourceCodeLink: "https://github.com/JonathanV123/calc",
-        techUsed: ['HTML','CSS','Javscript','Responsive Design','Unit Testing','Webpack'],
+        techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'Unit Testing', 'Webpack'],
         liveLink: "./projects/calc",
     }, {
-        title:'React To Do App',
+        title: 'React To Do App',
         name: 'projectSplash toDoApp',
         classNameAlt: 'toDoApplication',
         text: <p>
@@ -70,7 +70,7 @@ export const allProjects = [
             my favorite library, and I am excited to work on future applications utilizing it.
         </p>,
         sourceCodeLink: "https://github.com/JonathanV123/reactToDo",
-        techUsed: ['React','Javscript','CSS','Responsive Design','ES6','Webpack'],
+        techUsed: ['React', 'Javscript', 'CSS', 'Responsive Design', 'ES6', 'Webpack'],
         liveLink: "./projects/reactToDo/app",
     }
 ];

@@ -557,10 +557,11 @@ h2 {
 }
 
 @media screen and (max-device-width: 1250px) {
-    .row{
+    .row {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .rightSideOfRow .card {
         margin: 10px;
     }
@@ -654,9 +655,10 @@ h2 {
 }
 
 @media screen and (max-device-width: 615px) {
-    .divider{
+    .divider {
         height: 300px;
     }
+
     .welcomeText {
         margin: 0 15px 0 15px;
     }
@@ -727,7 +729,7 @@ h2 {
 }
 
 @media screen and (max-device-width: 510px) {
-    .divider{
+    .divider {
         height: 235px;
     }
 

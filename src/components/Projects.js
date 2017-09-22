@@ -9,12 +9,12 @@ export default class Projects extends React.Component {
 
     generateCards(projects) {
         let individualProjectCards = [];
-        projects.forEach(function (item, i) {
-                individualProjectCards.push(
-                    <div className={`projectDiv + ${item.classNameAlt} `}>
-                        <ProjectCards key={item.name} projectInfo={item}/>
-                    </div>
-                )
+        projects.forEach(function (item) {
+            individualProjectCards.push(
+                <div className={`projectDiv + ${item.classNameAlt} `}>
+                    <ProjectCards key={item.name} projectInfo={item}/>
+                </div>
+            )
         });
         return individualProjectCards
     }

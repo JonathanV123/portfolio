@@ -2,37 +2,35 @@ import React, {Component} from 'react';
 
 
 export default class Contact extends React.Component {
-    constructor() {
-        super();
-    }
-
     render() {
         return (
             <div className="contactContainer">
                 <div className="horizontalCardRow">
                     <div className="card contactCard">
-                        <a className="linkedInPic icon" href="https://www.linkedin.com/in/jonathan-voxland-037ba3b8"
+                        <a className="linkedInPic icon" rel="noopener noreferrer"
+                           href="https://www.linkedin.com/in/jonathan-voxland-037ba3b8"
                            target="_blank">
 
                         </a>
                         <a href="https://www.linkedin.com/in/jonathan-voxland-037ba3b8"
-                           target="_blank">
+                           target="_blank" rel="noopener noreferrer">
                             LinkedIn
                         </a>
                     </div>
                     <div className="card contactCard">
-                        <a className="emailPic icon" href="mailto:jonathanvoxland@gmail.com">
+                        <a className="emailPic icon" href="mailto:jonathanvoxland@gmail.com" rel="noopener noreferrer">
 
                         </a>
-                        <a href="mailto:jonathanvoxland@gmail.com" target="_blank">
+                        <a href="mailto:jonathanvoxland@gmail.com" target="_blank" rel="noopener noreferrer">
                             jonathanvoxland@gmail.com
                         </a>
                     </div>
                     <div className="card contactCard">
-                        <a className="gitPic icon" href="https://github.com/JonathanV123" target="_blank">
+                        <a className="gitPic icon" href="https://github.com/JonathanV123" target="_blank"
+                           rel="noopener noreferrer">
 
                         </a>
-                        <a href="https://github.com/JonathanV123" target="_blank">
+                        <a href="https://github.com/JonathanV123" target="_blank" rel="noopener noreferrer">
                             Github
                         </a>
                     </div>
