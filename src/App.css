@@ -102,10 +102,12 @@ body {
 
 .row {
     display: flex;
-    padding: 4%;
-    margin: 2%;
+    padding: 20px;
+    margin: 10px;
     width: 100%;
     box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skillsAndExperience {
@@ -292,7 +294,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
+    margin: 20px;
 }
 
 hr {
@@ -349,16 +351,6 @@ h2 {
     font-family: 'Playfair Display', serif;
 }
 
-.aboutMe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 3%;
-    margin: 1%;
-    font-size: 2em;
-}
-
 .myPic {
     width: 250px;
     height: 350px;
@@ -370,13 +362,13 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3%;
-    margin: 1%;
+    padding: 10px;
+    margin: 5px;
     font-size: 2em;
 }
 
 .rightSideOfRow {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -566,6 +558,10 @@ h2 {
 }
 
 @media screen and (max-device-width: 1250px) {
+    .row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .rightSideOfRow .card {
         margin: 10px;
     }
@@ -627,10 +623,6 @@ h2 {
 
     .leftSideOfRow p {
         font-size: 0.8em;
-    }
-
-    .row {
-        flex-wrap: wrap;
     }
 
     .leftSideOfRow {
