@@ -24,10 +24,10 @@ export default class ProjectCards extends React.Component {
                 </div>
                 {this.props.projectInfo.text}
                 <div className="linksContainer">
-                    <a href={this.props.projectInfo.sourceCodeLink} target="_blank" className="projectLink">
+                    <a href={this.props.projectInfo.liveLink} target="_blank" className="projectLink">
                         Live
                     </a>
-                    <a href={this.props.projectInfo.liveLink} target="_blank" className="projectLink">
+                    <a href={this.props.projectInfo.sourceCodeLink} target="_blank" className="projectLink">
                         Source Code
                     </a>
                 </div>
