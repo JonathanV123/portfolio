@@ -1,21 +1,50 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import {allProjects} from './ProjectDescriptions';
+import {Skills} from './Skills'
+import Header from './components/Header';
+import Introduction from './components/Introduction';
+import Projects from './components/Projects';
+import Divider from './components/Divider';
+import SkillsAndExperience from './components/SkillsAndExperience';
+import Contact from './components/Contact';
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    constructor() {
+        super();
+        this.state = {
+            dividerContent: [
+                {
+                    text: 'Projects',
+                },
+                {
+                    text: 'Skills and Education',
+                },
+                {
+                    text: 'Get in touch',
+                },
+            ],
+            projectInformation: allProjects,
+        };
+    }
+
+    render() {
+        return (
+            <div className="portfolioContainer">
+                <Header/>
+                <Introduction/>
+                <Divider content={this.state.dividerContent[0]}/>
+                <Projects projects={this.state.projectInformation}/>
+                <Divider content={this.state.dividerContent[1]}/>
+                <SkillsAndExperience skillsContent={Skills}/>
+                <Divider content={this.state.dividerContent[2]}/>
+                <Contact/>
+                <div className="scrollDownNotification scrollDownAnimation">
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
