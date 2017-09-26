@@ -8,9 +8,6 @@ body {
     z-index: -1;
     width: 470px;
     height: 409px;
-    display: flex;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .bottomStroke {

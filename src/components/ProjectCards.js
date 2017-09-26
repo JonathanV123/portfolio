@@ -9,7 +9,6 @@ export default class ProjectCards extends React.Component {
     renderSkills(skills) {
         var skillsArr = [];
         skills.forEach(function (item) {
-            console.log(item);
             skillsArr.push(<span>{item}</span>)
         });
         return skillsArr
