@@ -11,7 +11,7 @@ export default class Projects extends React.Component {
         let individualProjectCards = [];
         projects.forEach(function (item) {
             individualProjectCards.push(
-                <div className={`projectDiv + ${item.classNameAlt} `}>
+                <div key={item.title} className={`projectDiv + ${item.classNameAlt} `}>
                     <ProjectCards key={item.name} projectInfo={item}/>
                 </div>
             )
