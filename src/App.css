@@ -8,6 +8,9 @@ body {
     z-index: -1;
     width: 470px;
     height: 409px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
 
 .bottomStroke {

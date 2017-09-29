@@ -3,15 +3,15 @@ import React, {Component} from 'react';
 export default class ProjectCards extends React.Component {
     constructor() {
         super();
-        this.renderSkills = this.renderSkills.bind(this);
+        this.renderTechUsed = this.renderTechUsed.bind(this);
     }
 
-    renderSkills(skills) {
-        var skillsArr = [];
+    renderTechUsed(skills) {
+        var techUsed = [];
         skills.forEach(function (item) {
-            skillsArr.push(<span>{item}</span>)
+            techUsed.push(<span key={item}>{item}</span>)
         });
-        return skillsArr
+        return techUsed
     }
 
     render() {
@@ -30,7 +30,7 @@ export default class ProjectCards extends React.Component {
                     </a>
                 </div>
                 <div className="techUsed">
-                    {this.renderSkills(this.props.projectInfo.techUsed)}
+                    {this.renderTechUsed(this.props.projectInfo.techUsed)}
                 </div>
             </div>
         )

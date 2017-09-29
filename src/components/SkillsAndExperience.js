@@ -13,7 +13,7 @@ export default class SkillsAndExperience extends React.Component {
     renderSkills(skills) {
         let skillArr = [];
         skills.map(function (skill) {
-            skillArr.push(<div className="skillWrapper">
+            skillArr.push(<div key={skill.title} className="skillWrapper">
                 <div className={skill.className}>
                 </div>
                 <div className="skillName">
