@@ -374,6 +374,7 @@ h2 {
 
 .card {
     display: flex;
+    position: relative;
     margin: 50px;
     width: 300px;
     height: 250px;
@@ -598,13 +599,7 @@ h2 {
         height: calc(50vh + 45vw);
     }
 }
-@media screen and (max-device-width: 1039px) {
-    .bgSplash{
-        -webkit-transform: translateY( 0%);
-        transform: translateY(0%);
-    }
 
-}
 @media screen and (max-device-width: 855px) {
     .horizontalCardRow .contactCard {
         width: 295px;
