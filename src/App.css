@@ -10,6 +10,10 @@ body {
     height: 409px;
 }
 
+iframe{
+    margin: 12px 0;
+}
+
 .bottomStroke {
     position: absolute;
     height: 50%;

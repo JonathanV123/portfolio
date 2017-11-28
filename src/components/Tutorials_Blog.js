@@ -43,7 +43,7 @@ export default class Tutorials_Blog extends React.Component {
                 </h2>
                     <img className="icon" src={twitter_icon} alt="Twitter Icon"/>
                 <p className="centerText">
-                    Check out my twitter for snippets of interesting code, and announcements upcoming topics for my
+                    Check out my twitter for snippets of interesting code, and announcements of upcoming topics for my
                     Youtube channel and blog.
                 </p>
                 <hr/>
