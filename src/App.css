@@ -335,7 +335,14 @@ hr{
 .centerText{
     text-align: center;
 }
-
+#youtubeLink{
+    text-decoration:none;
+    color: tomato;
+}
+.blog_text{
+    font-size: 1.2em;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
 .techUsed {
     width: 80%;
     display: inline-flex;
