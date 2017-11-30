@@ -20,7 +20,7 @@ export default class Tutorials_Blog extends React.Component {
                 </h2>
 
                 <YouTube
-                    videoId="SLa4U3w5DV8"
+                    videoId="FAS76Lhba8A"
                     opts={opts}
                     onReady={this._onReady}
                 />
