@@ -5,7 +5,8 @@
   "homepage": "http://jonathanvoxland.com",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-youtube": "^7.5.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.13"
