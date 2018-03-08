@@ -2,6 +2,21 @@ import React from 'react';
 
 export const allProjects = [
     {
+        title: 'Watchy',
+        name: 'projectSplash nodeJsApp',
+        classNameAlt: 'fullstackApplication',
+        text: <p>
+            My first Full-stack application. This app features a login system with user authentication using passport.js, password reset system using the SendGrid
+            mail API, friends system, and a night mode. Watchy is an application that allows you to create an account and add your friends. Once you add them, you 
+            can recommend shows to watch, or share what shows you are currently watching. This project solidified my love of coding, and
+            I can't wait incorporate everything I've learned into future projects. This project taught me about Function Composition, the MVC pattern, sending emails,
+            user authentication, template engines, and the HTTP request/response cycle.
+        </p>,
+        techUsed: ['Node.js', 'Javscript', 'CSS', 'Responsive Design', 'Express', 'Webpack', 'MongoDB', 'Mongoose', 'Pug'],
+        sourceCodeLink: "https://github.com/JonathanV123/myNodeApp",
+        liveLink: "https://watchytv.herokuapp.com/",
+    },
+    {
         title: 'React Movie App',
         name: 'projectSplash movieApp',
         classNameAlt: 'movieApplication',
@@ -58,19 +73,5 @@ export const allProjects = [
         techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'Unit Testing', 'Webpack'],
         sourceCodeLink: "https://github.com/JonathanV123/calc",
         liveLink: "./projects/calc",
-    }, {
-        title: 'React To Do App',
-        name: 'projectSplash toDoApp',
-        classNameAlt: 'toDoApplication',
-        text: <p>
-            A simple To Do List app built with React. I built this application to practice using
-            ES6 and get a better understanding of React and Webpack. This application features two-way
-            data-binding, persisting state with local storage and liveLink state editing. The power of React's
-            state and virtual dom were an absolute joy to learn and use. React quickly became
-            my favorite library, and I am excited to work on future applications utilizing it.
-        </p>,
-        techUsed: ['React', 'Javscript', 'CSS', 'Responsive Design', 'ES6', 'Webpack'],
-        sourceCodeLink: "https://github.com/JonathanV123/reactToDo",
-        liveLink: "./projects/reactToDo/app",
     }
 ];

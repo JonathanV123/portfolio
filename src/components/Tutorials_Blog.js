@@ -20,16 +20,16 @@ export default class Tutorials_Blog extends React.Component {
                 </h2>
 
                 <YouTube
-                    videoId="FAS76Lhba8A"
+                    videoId="rCuAazyYORY"
                     opts={opts}
                     onReady={this._onReady}
                 />
-                <a id="youtubeLink" href="https://www.youtube.com/channel/UC8ekmpR_7oSwbXVfvMQvVfg/featured" target="_blank">
+                <a id="youtubeLink" href="https://www.youtube.com/channel/UC8ekmpR_7oSwbXVfvMQvVfg" target="_blank">
                     <h3>Visit my channel</h3>
                 </a>
                 <p className="centerText blog_text">
-                    My personal Web Development Youtube Channel and Blog focusing on teaching others about HTML, CSS,
-                    Javascript, and other aspects of web development.
+                    My personal Web Development Tutorial Youtube Channel and Blog. This channel focuses on inspiring and teaching others about HTML, CSS,
+                    Javascript, along with other aspects of web development.
                 </p>
                 <hr/>
                 <h2 className="centerText">
@@ -46,7 +46,7 @@ export default class Tutorials_Blog extends React.Component {
                 <h2 className="centerText">
                     All things code on my Twitter
                 </h2>
-                <a href="https://twitter.com/Mecha_Jiv" target="_blank">
+                <a href="https://twitter.com/Code_Curious_JV" target="_blank">
                     <img className="icon" src={twitter_icon} alt="Twitter Icon"/>
                 </a>
                 <p className="centerText blog_text">

@@ -11,7 +11,7 @@ export default class Introduction extends React.Component {
                         About Me
                     </h2>
                     <p>
-                        I'm a self-taught developer and coding bootcamp grad that is extremely passionate and
+                        I'm a self-taught developer that is extremely passionate and
                         enthusiastic
                         about
                         coding, and am eager to tap into all aspects of web development. When I'm not building
