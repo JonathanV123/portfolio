@@ -27,18 +27,6 @@ export default class SkillsAndExperience extends React.Component {
     render() {
         return (
             <div className="skillsAndExperience">
-                <div className="skillsContainer">
-                    {this.renderSkills(this.props.skillsContent)}
-                </div>
-                <div className="card">
-                    <h2>
-                        LearningFuze
-                    </h2>
-                    <p>
-                        Accelerated Web Development Program
-                    </p>
-                    <img src={Splash} className="bgSplash" alt="Paint Blotch"/>
-                </div>
                 <div className="card">
                     <h2>
                         Irvine Valley College
