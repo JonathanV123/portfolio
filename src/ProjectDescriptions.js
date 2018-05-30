@@ -6,7 +6,7 @@ export const allProjects = [
         name: 'projectSplash nodeJsApp',
         classNameAlt: 'fullstackApplication',
         text: <p>
-            My first Full-stack application. This app features a login system with user authentication using passport.js, password reset system using the SendGrid
+            This app features a login system with user authentication using passport.js, password reset system using the SendGrid
             mail API, friends system, and a night mode. Watchy is an application that allows you to create an account and add your friends. Once you add them, you 
             can recommend shows to watch, or share what shows you are currently watching. This project solidified my love of coding, and
             I can't wait incorporate everything I've learned into future projects. This project taught me about Function Composition, the MVC pattern, sending emails,
