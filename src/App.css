@@ -760,6 +760,16 @@ h2 {
     .projectsContainer>.toDoApplication:after {
         background-image: url("./assets/images/toDoAppSplash.png");
     }
+
+    .projectsContainer>.restaurantWebsite:after {
+        background-image: url("./assets/images/husSplash.png");
+    }
+    .projectsContainer>.barberShop:after {
+        background-image: url("./assets/images/dannysComplete.png");
+    }
+    .projectsContainer>.jnwFilms:after {
+        background-image: url("./assets/images/jnw.png");
+    }
 }
 
 @media screen and (max-device-width: 510px) {

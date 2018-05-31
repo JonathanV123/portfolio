@@ -66,11 +66,10 @@ export const allProjects = [
         name: 'projectSplash husSplash',
         classNameAlt: 'restaurantWebsite',
         text: <p>
-            Restaurant Website. Implemented custom Javascript and CSS to meet customer needs. Developed and maintained front end funcationality of the website.
+            Restaurant Website. Implemented custom Javascript and CSS to meet customer needs. Developed and maintained front-end functionality of the website.
             Added Grubhub integration for easy online ordering.
         </p>,
         techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'Wordpress'],
-        sourceCodeLink: "https://github.com/JonathanV123/calc",
         liveLink: "https://husszechwan.com/",
     }, {
         title: 'Calculator',
@@ -106,7 +105,7 @@ export const allProjects = [
             unique to the customer.
         </p>,
         techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'FullPage.js', 'Custom Animations', 'jQuery'],
-        sourceCodeLink: "https://github.com/",
+        sourceCodeLink: "https://github.com/JonathanV123/jnwFilms",
         liveLink: "http://jnwfilms.com/",
     },
 ];
