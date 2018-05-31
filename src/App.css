@@ -290,6 +290,18 @@ iframe {
     background-image: url("./assets/images/calcSplash.png");
 }
 
+.dannys {
+    background-image: url("./assets/images/dannysComplete.png");
+}
+
+.husSplash {
+    background-image: url("./assets/images/husSplash.png");
+}
+
+.jnw {
+    background-image: url("./assets/images/jnw.png");
+}
+
 .movieApp {
     background-image: url("./assets/images/movieAppSplash.png");
 }
@@ -747,6 +759,16 @@ h2 {
     }
     .projectsContainer>.toDoApplication:after {
         background-image: url("./assets/images/toDoAppSplash.png");
+    }
+
+    .projectsContainer>.restaurantWebsite:after {
+        background-image: url("./assets/images/husSplash.png");
+    }
+    .projectsContainer>.barberShop:after {
+        background-image: url("./assets/images/dannysComplete.png");
+    }
+    .projectsContainer>.jnwFilms:after {
+        background-image: url("./assets/images/jnw.png");
     }
 }
 
