@@ -290,6 +290,18 @@ iframe {
     background-image: url("./assets/images/calcSplash.png");
 }
 
+.dannys {
+    background-image: url("./assets/images/dannysComplete.png");
+}
+
+.husSplash {
+    background-image: url("./assets/images/husSplash.png");
+}
+
+.jnw {
+    background-image: url("./assets/images/jnw.png");
+}
+
 .movieApp {
     background-image: url("./assets/images/movieAppSplash.png");
 }

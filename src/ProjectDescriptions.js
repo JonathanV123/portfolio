@@ -7,7 +7,7 @@ export const allProjects = [
         classNameAlt: 'fullstackApplication',
         text: <p>
             This app features a login system with user authentication using passport.js, password reset system using the SendGrid
-            mail API, friends system, and a night mode. Watchy is an application that allows you to create an account and add your friends. Once you add them, you 
+            mail API, friends system, and a night mode. Watchy is an application that allows you to create an account and add your friends. Once you add them, you
             can recommend shows to watch, or share what shows you are currently watching. This project solidified my love of coding, and
             I can't wait incorporate everything I've learned into future projects. This project taught me about Function Composition, the MVC pattern, sending emails,
             user authentication, template engines, and the HTTP request/response cycle.
@@ -60,6 +60,18 @@ export const allProjects = [
         techUsed: ['HTML', 'CSS', 'Javscript', 'jQuery', 'Responsive Design',],
         sourceCodeLink: "https://github.com/JonathanV123/ajax",
         liveLink: "./projects/Ajax",
+    },
+    {
+        title: "Hu's Szechwan",
+        name: 'projectSplash husSplash',
+        classNameAlt: 'restaurantWebsite',
+        text: <p>
+            Restaurant Website. Implemented custom Javascript and CSS to meet customer needs. Developed and maintained front end funcationality of the website.
+            Added Grubhub integration for easy online ordering.
+        </p>,
+        techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'Wordpress'],
+        sourceCodeLink: "https://github.com/JonathanV123/calc",
+        liveLink: "https://husszechwan.com/",
     }, {
         title: 'Calculator',
         name: 'projectSplash calc',
@@ -71,7 +83,30 @@ export const allProjects = [
             This project also incorporates unit testing through the behavior-driven development framework Jasmine.
         </p>,
         techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'Unit Testing', 'Webpack'],
-        sourceCodeLink: "https://github.com/JonathanV123/calc",
         liveLink: "./projects/calc",
-    }
+    },
+    {
+        title: "Danny's Barber Shop",
+        name: 'projectSplash dannys',
+        classNameAlt: 'barberShop',
+        text: <p>
+            Website for a barbershop business. Developed UI/UX design. Optimized application performance, and incorporated custom animations and load screen. Collaborated with customer
+            to deliver specific creative requirements.
+        </p>,
+        techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'Bootstrap', 'Custom Animations'],
+        sourceCodeLink: "https://github.com/JonathanV123/danBarberShop",
+        liveLink: "http://www.dannysbarbershopwestla.com/",
+    },
+    {
+        title: 'JNW FILMS',
+        name: 'projectSplash jnw',
+        classNameAlt: 'jnwFilms',
+        text: <p>
+            Custom built website for Film Producer, Director, and Writer. Followed strict styling and design instructions to build out a custom designed and animated website
+            unique to the customer.
+        </p>,
+        techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'FullPage.js', 'Custom Animations', 'jQuery'],
+        sourceCodeLink: "https://github.com/",
+        liveLink: "http://jnwfilms.com/",
+    },
 ];
