@@ -294,6 +294,10 @@ iframe {
     background-image: url("./assets/images/dannysComplete.png");
 }
 
+.drinksyApp {
+    background-image: url("./assets/images/drinksySplash.png");
+}
+
 .husSplash {
     background-image: url("./assets/images/husSplash.png");
 }
@@ -750,6 +754,9 @@ h2 {
     }
     .projectsContainer>.fullstackApplication:after {
         background-image: url("./assets/images/nodeSplashTiny.png");
+    }
+    .projectsContainer>.drinksyApplication:after {
+        background-image: url("./assets/images/drinksySplash.png");
     }
     .projectsContainer>.ajaxApplication:after {
         background-image: url("./assets/images/ajaxSplash.png");
