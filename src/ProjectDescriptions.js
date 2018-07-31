@@ -2,6 +2,19 @@ import React from 'react';
 
 export const allProjects = [
     {
+        title: 'Drinksy',
+        name: 'projectSplash drinksyApp',
+        classNameAlt: 'drinksyApplication',
+        text: <p>
+            This app features user authentication utilizing JSON Web Tokens, a RESTful API connecting the React front-end with the Node and PostreSQL back-end.
+            Redux is used to handle application state, and Material-UI was used to design the look and feel of application. This project taught me how Redux works,
+            and how helpful it could be in larger projects. I also learned how to connect a React front-end with a Node back-end utilizing a RESTful API, and CORS.
+        </p>,
+        techUsed: ['Node.js', 'React', 'Javscript', 'Redux', 'Sass', 'Responsive Design', 'Webpack', 'PostgreSQL', 'Material-UI', 'React Router'],
+        sourceCodeLink: "https://github.com/JonathanV123/drinksyReact",
+        liveLink: "http://jonathanvoxland.com/projects/drinksyReact/#/",
+    },
+    {
         title: 'Watchy',
         name: 'projectSplash nodeJsApp',
         classNameAlt: 'fullstackApplication',
