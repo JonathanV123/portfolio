@@ -24,7 +24,7 @@ export default class Tutorials_Blog extends React.Component {
                     opts={opts}
                     onReady={this._onReady}
                 />
-                <a id="youtubeLink" href="https://www.youtube.com/channel/UC8ekmpR_7oSwbXVfvMQvVfg" target="_blank">
+                <a id="youtubeLink" href="https://www.youtube.com/channel/UC8ekmpR_7oSwbXVfvMQvVfg/videos" target="_blank">
                     <h3>Visit my channel</h3>
                 </a>
                 <p className="centerText blog_text">

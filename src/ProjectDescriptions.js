@@ -21,8 +21,7 @@ export const allProjects = [
         text: <p>
             This app features a login system with user authentication using passport.js, password reset system using the SendGrid
             mail API, friends system, and a night mode. Watchy is an application that allows you to create an account and add your friends. Once you add them, you
-            can recommend shows to watch, or share what shows you are currently watching. This project solidified my love of coding, and
-            I can't wait incorporate everything I've learned into future projects. This project taught me about Function Composition, the MVC pattern, sending emails,
+            can recommend shows to watch, or share what shows you are currently watching. This project taught me about Function Composition, the MVC pattern, sending emails,
             user authentication, template engines, and the HTTP request/response cycle.
         </p>,
         techUsed: ['Node.js', 'Javscript', 'CSS', 'Responsive Design', 'Express', 'Webpack', 'MongoDB', 'Mongoose', 'Pug'],
@@ -34,9 +33,7 @@ export const allProjects = [
         name: 'projectSplash movieApp',
         classNameAlt: 'movieApplication',
         text: <p>
-            Having enjoyed utilizing React on my To Do List application, I decided to build another
-            React application
-            that would be bigger in scope. This application features a custom built calendar that pulls
+            This application features a custom built calendar that pulls
             in movie information and
             release dates via the theMovieDB API. I had an absolute blast designing and building the
             calendar logic while figuring out
@@ -80,7 +77,7 @@ export const allProjects = [
         classNameAlt: 'restaurantWebsite',
         text: <p>
             Restaurant Website. Implemented custom Javascript and CSS to meet customer needs. Developed and maintained front-end functionality of the website.
-            Added Grubhub integration for easy online ordering.
+            Added Grubhub integration for easy online ordering increasing sales by 20%.
         </p>,
         techUsed: ['HTML', 'CSS', 'Javscript', 'Responsive Design', 'Wordpress'],
         liveLink: "https://husszechwan.com/",
