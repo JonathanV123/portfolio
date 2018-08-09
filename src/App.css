@@ -353,9 +353,16 @@ hr {
     text-align: center;
 }
 
+#youtubeLink:hover{
+    background: #2CB563;
+}
+
 #youtubeLink {
     text-decoration: none;
-    color: tomato;
+    color: white;
+    padding: 5px 12px 5px 12px;
+    font-size: 1.7em;
+    background-color: tomato;
 }
 
 .blog_text {
