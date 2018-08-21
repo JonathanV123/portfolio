@@ -8,11 +8,11 @@ export default class Contact extends React.Component {
                 <div className="horizontalCardRow">
                     <div className="card contactCard">
                         <a className="linkedInPic icon" rel="noopener noreferrer"
-                            href="www.linkedin.com/in/jvoxl"
+                            href="https://www.linkedin.com/in/jvoxl"
                             target="_blank">
 
                         </a>
-                        <a href="www.linkedin.com/in/jvoxl"
+                        <a href="https://www.linkedin.com/in/jvoxl"
                             target="_blank" rel="noopener noreferrer">
                             LinkedIn
                         </a>
