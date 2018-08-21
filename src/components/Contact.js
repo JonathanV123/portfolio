@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 
 export default class Contact extends React.Component {
@@ -8,12 +8,12 @@ export default class Contact extends React.Component {
                 <div className="horizontalCardRow">
                     <div className="card contactCard">
                         <a className="linkedInPic icon" rel="noopener noreferrer"
-                           href="https://www.linkedin.com/in/jonathan-voxland-037ba3b8"
-                           target="_blank">
+                            href="www.linkedin.com/in/jvoxl"
+                            target="_blank">
 
                         </a>
-                        <a href="https://www.linkedin.com/in/jonathan-voxland-037ba3b8"
-                           target="_blank" rel="noopener noreferrer">
+                        <a href="www.linkedin.com/in/jvoxl"
+                            target="_blank" rel="noopener noreferrer">
                             LinkedIn
                         </a>
                     </div>
@@ -27,7 +27,7 @@ export default class Contact extends React.Component {
                     </div>
                     <div className="card contactCard">
                         <a className="gitPic icon" href="https://github.com/JonathanV123" target="_blank"
-                           rel="noopener noreferrer">
+                            rel="noopener noreferrer">
 
                         </a>
                         <a href="https://github.com/JonathanV123" target="_blank" rel="noopener noreferrer">
